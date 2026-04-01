@@ -57,5 +57,5 @@ jobs:
           git config list
           echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
           echo "GIT DIR: $GIT_DIR"
-          node -v
+          npm install express 
 
